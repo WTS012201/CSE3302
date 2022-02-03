@@ -5,6 +5,7 @@
 
 int get_size(std::string path){
     auto total = 0;
+    
     for(const auto& elem : std::filesystem::directory_iterator(path)){
         if(std::filesystem::is_directory(elem.path()))
             total += get_size(elem.path());
@@ -15,5 +16,6 @@ int get_size(std::string path){
 }
 
 int main(){
-    std::cout << get_size(".") << " bytes" << std::endl;
+    auto total_size = get_size(std::filesystem::current_path());
+    std::cout << total_size << " bytes" << std::endl;
 }
