@@ -17,6 +17,7 @@ public class wts0022_lab01{
     }
     public static void main(String[] args){
         String currentDir = System.getProperty("user.dir");
+        
         System.out.println(getSize(currentDir) + " bytes");
     }
 }
