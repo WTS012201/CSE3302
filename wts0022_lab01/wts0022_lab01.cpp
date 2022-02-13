@@ -1,3 +1,12 @@
+//  William Sigala
+//  CSE 3302
+//  Lab 1
+//  ID# 1001730022
+
+//  compile: g++ --std=c++17 wts0022_lab01.cpp
+
+//  Compile on school VM
+
 /*
 1)  Was one language easier or faster to write the code for this?  If so, describe in 
 detail why, as in what about the language made that the case. 
@@ -14,7 +23,7 @@ they be?
     or queue once there are no files left and repeat the process until they are empty.
 
     There are no apparent limitations with this approach. As far as resource use goes,
-    the stack or queue would be negligible, but it would require more memory than the
+    the stack or queue would be negligible but it would require more memory than the
     recursive solution.
 */
 

@@ -1,3 +1,10 @@
+//  William Sigala
+//  CSE 3302
+//  Lab 1
+//  ID# 1001730022
+
+//  compile: java wts0022_lab01.java
+
 import java.util.Scanner;
 import java.io.File;
 

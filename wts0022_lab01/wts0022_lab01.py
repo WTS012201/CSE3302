@@ -1,3 +1,10 @@
+#  William Sigala
+#  CSE 3302
+#  Lab 1
+#  ID# 1001730022
+
+#  compile: python3 wts0022_lab01.py
+
 import os
 
 def get_size(path):
